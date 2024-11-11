@@ -70,7 +70,7 @@ const MovieDetails = memo(({ movie }: Props) => {
         )}
       </div>
       {/* movie details container */}
-      <div className='whitespace-normal text-balance'>
+      <div className='whitespace-normal text-balance mb-4'>
         <div className='flex flex-col gap-4'>
           <h1 className='text-3xl font-bold'>
             {movie.title}

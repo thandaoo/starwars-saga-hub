@@ -37,10 +37,7 @@ function App () {
 
   const mobileLayout = useMemo(
     () => (
-      <div
-        className='flex flex-col w-full px-4 py-2 min-h-[calc(100
-      vh+var(--mobile-nav-footer-height))]'
-      >
+      <div className='flex flex-col w-full px-4 py-2 min-h-[calc(115vh+var(--mobile-nav-footer-height))]'>
         {selectedMovie ? (
           <MovieDetails movie={selectedMovie} />
         ) : (
