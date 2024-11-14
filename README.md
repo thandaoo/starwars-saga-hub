@@ -47,6 +47,7 @@ A responsive, React-based web application that lists Star Wars movies, provides 
 
 - Node.js (v22.4.1)
 - npm or yarn
+- API key for movie details is required. see (.env.example) for sample. 
 
 ### Installation
 
@@ -59,7 +60,7 @@ A responsive, React-based web application that lists Star Wars movies, provides 
 2. **Navigate to Project directory**:
 
    ```bash
-   cd starwars-saga-hub
+   cd starwars-saga-hub/starwars-saga-hub
    ```
 
 3. **Install dependencies**:
@@ -67,7 +68,7 @@ A responsive, React-based web application that lists Star Wars movies, provides 
    ```bash
    npm install
    ```
-
+  
 4. **Start the application**:
 
    ```bash
